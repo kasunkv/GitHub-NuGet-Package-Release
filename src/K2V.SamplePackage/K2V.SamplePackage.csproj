@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;netstandard1.1;net40</TargetFrameworks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PackageId>K2V.SamplePackage</PackageId>
+    <Title>K2V.SamplePackage</Title>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Kasun Kodagoda</Authors>
+    <Company>K2V Software Solutions</Company>
+    <PackageProjectUrl>https://github.com/kasunkv/github-nuget-package-release</PackageProjectUrl>
+    <Description>PoC project for releasing a NuGet package using Azure DevOps.</Description>
+    <Summary>PoC project for releasing a NuGet package using Azure DevOps.</Summary>
+    <RepositoryUrl>https://github.com/kasunkv/github-nuget-package-release</RepositoryUrl>
+    <PackageTags>sample</PackageTags>
+    <PackageReleaseNotes>Initial release</PackageReleaseNotes>
+    <Version>1.0.0</Version>
+    <AssemblyName>K2V.SamplePackage</AssemblyName>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
+  </PropertyGroup>
+
+</Project>
